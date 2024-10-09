@@ -8,7 +8,6 @@ export class Ingredients {
         this.ingredients = ingredients;
     }
 
-
     static load(data){
         return new Ingredients(data.ingredients.map(Ingredient.from));
       }
@@ -20,7 +19,6 @@ export class Ingredients {
         }
         return ingredient;
     }
-
 }
 
 export default Ingredients;
