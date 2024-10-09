@@ -1,5 +1,5 @@
 //################################
-//#           POTION             #
+//#            POTION            #
 //################################
 class Potion {
     constructor(name, value, weight, time) {
