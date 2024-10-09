@@ -1,4 +1,8 @@
+//################################
+//#           CAULDRON           #
+//################################
 import { Potion } from './potion.mjs';
+//################################
 
 class Cauldron {
     constructor(ingredients) {
